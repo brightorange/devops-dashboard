@@ -1,5 +1,6 @@
 import sysinfo
 import logcheck
+import tasklist
 
 while True:
     choice = input(f"""Please select an option:
@@ -15,6 +16,6 @@ while True:
     elif choice == "2":
         logcheck.check_log()
     elif choice == "3":
-        print("Coming soon...")
+        tasklist.manage_tasks()
     else:
         print("Invalid option")
