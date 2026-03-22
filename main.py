@@ -1,4 +1,5 @@
 import sysinfo
+import logcheck
 
 while True:
     choice = input(f"""Please select an option:
@@ -12,7 +13,7 @@ while True:
     elif choice == "1":
         sysinfo.show_sysinfo()
     elif choice == "2":
-        print("Coming soon..")
+        logcheck.check_log()
     elif choice == "3":
         print("Coming soon...")
     else:
